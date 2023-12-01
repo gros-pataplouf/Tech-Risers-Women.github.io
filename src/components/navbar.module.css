@@ -100,3 +100,6 @@ img {
 .active {
   opacity: 0.7;
 }
+.activeLogo {
+  opacity: 0;
+}

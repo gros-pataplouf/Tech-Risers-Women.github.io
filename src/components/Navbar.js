@@ -50,7 +50,13 @@ const Navbar = () => {
           }}
         />
       </button>
-      <img src={Logo} alt="Tech Risers Women Logo" />
+      <NavLink
+        to="/"
+        className={({ isActive }) => (isActive ? styles.activeLogo : "")}
+        onClick={closeNavbar}
+      >
+        <img src={Logo} alt="Tech Risers Women Logo" />
+      </NavLink>
       <ul className={styles.bigScreenMenu}>
         <li>
           <NavLink
