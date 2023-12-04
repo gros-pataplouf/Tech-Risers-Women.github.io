@@ -23,30 +23,44 @@
   position: relative;
   transform: skew(0deg, -2deg);
   z-index: 1;
+  overflow: hidden;
 }
 .heroDivider h1 {
   margin: 0;
   padding: 0.4rem 0 0 0;
 }
 .heroDivider div {
-  transform: skew(0deg, 2deg);
   font-family: var(---basefont);
   font-size: 55px;
   text-align: center;
 }
+.heroOne,
+.heroTwo,
+.heroThree {
+  transform: skew(0deg, 2deg);
+}
 /*  */
 
+.noheadlineDivider {
+  transform: translateX(-100%) skew(0deg, 2deg);
+  transition: opacity 1s ease-in-out, transform 1.5s ease-in-out;
+  opacity: 0;
+}
 .headlineDivider,
 .headlineDivider2 {
   height: 0.35rem;
   margin: 0.3rem auto;
   background-color: var(---baselight);
   border-radius: 1px;
+  transform: translateX(0%) skew(0deg, 2deg);
+  opacity: 1;
 }
-
 .headlineDivider {
   width: 16rem;
 }
 .headlineDivider2 {
   width: 21rem;
 }
+
+/* 
+ */

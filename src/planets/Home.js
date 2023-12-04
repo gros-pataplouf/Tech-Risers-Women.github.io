@@ -1,22 +1,38 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./home.module.css";
 import Intro from "../moons/MainIntro.js";
 import MainContent from "../moons/MainContent.js";
 
 function Home() {
+  const [fadeIn, setFadeIn] = useState(false);
+
+  useEffect(() => {
+    setFadeIn(true);
+  }, []);
+
   return (
     <div className={styles.home}>
       <div className={styles.heroDivider}>
         <div>
-          <h1 className={styles.heroone}>Tech </h1>
+          <h1 className={styles.heroOne}>Tech </h1>
         </div>
-        <div className={styles.headlineDivider}></div>
+
+        <div
+          className={`${styles.noheadlineDivider} ${
+            fadeIn ? styles.headlineDivider : ""
+          }`}
+        ></div>
         <div>
-          <h1 className={styles.herotwo}> Risers </h1>
-        </div>{" "}
-        <div className={styles.headlineDivider2}></div>
+          <h1 className={styles.heroTwo}> Risers </h1>
+        </div>
+        <div
+          className={`${styles.noheadlineDivider} ${
+            fadeIn ? styles.headlineDivider2 : ""
+          }`}
+        ></div>
+
         <div>
-          <h1 className={styles.herothree}> Women</h1>
+          <h1 className={styles.heroThree}> Women</h1>
         </div>
       </div>
       <Intro />
