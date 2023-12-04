@@ -10,15 +10,17 @@ function Home() {
         <div>
           <h1 className={styles.heroone}>Tech </h1>
         </div>
+        <div className={styles.headlineDivider}></div>
         <div>
           <h1 className={styles.herotwo}> Risers </h1>
-        </div>
+        </div>{" "}
+        <div className={styles.headlineDivider2}></div>
         <div>
           <h1 className={styles.herothree}> Women</h1>
         </div>
       </div>
       <Intro />
-<MainContent/>
+      <MainContent />
     </div>
   );
 }
