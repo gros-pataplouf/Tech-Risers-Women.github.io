@@ -17,15 +17,19 @@
   background-color: #003666;
   background-image: radial-gradient(circle, #ffc400b4 1px, transparent 0);
   background-size: 1.5rem 1.5rem;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   height: 350px;
   position: relative;
   transform: skew(0deg, -2deg);
   z-index: 1;
 }
+.heroDivider h1 {
+  margin: 0;
+  padding: 0.4rem 0 0 0;
+}
 .heroDivider div {
   transform: skew(0deg, 2deg);
   font-family: var(---basefont);
-  font-size: 30px;
+  font-size: 55px;
   text-align: center;
- }
+}

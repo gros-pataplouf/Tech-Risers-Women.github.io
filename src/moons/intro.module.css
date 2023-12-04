@@ -1,0 +1,43 @@
+.intro {
+  margin: 2rem;
+}
+.introWrapper {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  justify-items: center;
+  max-width: 70%;
+  margin: 3rem auto;
+  padding: 0.8rem 1.2rem;
+ 
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: var(---light);
+  text-align: center;
+  font-size: 24px;
+  color: var(---basedark);
+}
+.intro img {
+  max-width: 98%;
+  min-width: 98%;
+  padding: 0.5rem 0.7rem;
+}
+.intro button:hover {
+  background-color: transparent;
+  color: var(---basedark);
+  border: 2px solid var(---baselight);
+}
+.intro a {
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+.intro a:visited {
+  color: inherit;
+}
+.buttonOne {
+  padding: 0.5rem 0.7rem;
+  color: var(---light);
+  background-color: #214f94;
+  border: 2px solid var(---basedark);
+  border-radius: 3px;
+  font-size: 20px;
+}
