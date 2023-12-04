@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./about.module.css";
+import Pillars from "../moons/Pillars.js";
 
 function About() {
   return (
@@ -9,7 +10,7 @@ function About() {
           <h1 className={styles.heroone}> About</h1>
         </div>
       </div>
-      <div className={styles.aboutContent}>
+      <div className={styles.aboutIntro}>
         <h2> Pillars of Tech Risers Women</h2>
         <p>
           Explore the cornerstones that define our mission and commitment to
@@ -19,6 +20,7 @@ function About() {
           environment where women excell in the tech world.
         </p>
       </div>
+      <Pillars />
     </div>
   );
 }
