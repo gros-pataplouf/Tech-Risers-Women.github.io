@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import styles from "./navbar.module.css";
-import Logo from "../media/logo.png";
+import Logo from "../media/logodark.png";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -51,7 +51,7 @@ const Navbar = () => {
       </button>
       <NavLink
         to="/"
-        className={({ isActive }) => (isActive ? styles.activeLogo : "")}
+        className={({ isActive }) => (isActive ? styles.homeLogo : "")}
         onClick={closeNavbar}
       >
         <img src={Logo} alt="Tech Risers Women Logo" />

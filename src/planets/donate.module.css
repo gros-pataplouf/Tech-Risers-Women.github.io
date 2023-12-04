@@ -1,9 +1,11 @@
-.donate{  min-height: 100vh;
+.donate {
+  min-height: 100vh;
   margin: 0;
   padding-top: 50px;
   background-color: #003666;
   background-image: radial-gradient(circle, #ffc400b4 1px, transparent 0);
-  background-size: 20px 20px;
+  background-size: 1.5rem 1.5rem;
   font-weight: 400;
   font-family: sans-serif;
-  color: #ffc300;}
+  color: #ffc300;
+}

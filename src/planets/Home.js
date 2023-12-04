@@ -4,8 +4,18 @@ import styles from "./home.module.css";
 function Home() {
   return (
     <div className={styles.home}>
-    
-      <h1>Tech Risers Women</h1>
+      <div className={styles.heroDivider}>
+        <div >
+          <h1 className={styles.heroone}>Tech </h1>
+        </div>
+        <div >
+          <h1 className={styles.herotwo}> Risers </h1>
+        </div>
+        <div >
+          <h1 className={styles.herothree}> Women</h1>
+        </div>
+      </div>
+
       <p>
         {" "}
         CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT{" "}

@@ -1,4 +1,6 @@
 :root {
   ---basedark: #003666;
   ---baselight: #ffc300;
+  ---light: #fffaf0;
+  ---basefont: "Josefin Sans", sans-serif;
 }
