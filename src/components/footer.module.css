@@ -1,0 +1,21 @@
+.footer {
+  padding: 2rem;
+  background-color: var(---baselight);
+  background-image: radial-gradient(
+    circle,
+    var(---basedark) 1px,
+    transparent 0
+  );
+  background-size: 1.5rem 1.5rem;
+}
+
+.footer p {
+  margin: 0;
+  padding: 1rem;
+  background-color: var(---baselight);
+  text-align: center;
+}
+.icon {
+  margin-inline: 0.3rem;
+  color:var(---basedark);
+}
