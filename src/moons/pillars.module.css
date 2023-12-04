@@ -1,0 +1,46 @@
+.pillars {
+  padding-bottom: 3rem;
+}
+
+.pillar1,
+.pillar2,
+.pillar3 {
+  display: grid;
+  justify-items: stretch;
+  align-items: center;
+  min-height: 20rem;
+  margin: 3rem auto 0;
+  padding: 0.8rem 1.2rem;
+  background-color: var(---basedark);
+  color: var(---baselight);
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.pillar1,
+.pillar3 {
+  grid-template-columns: 50% 25% 24% 1%;
+  border-radius: 0 10rem 10rem 0;
+  transform: translateX(-50%);
+}
+
+.pillar2 {
+  grid-template-columns: 1% 24% 25% 50%;
+  border-radius: 10rem 0 0 10rem;
+  text-align: end;
+  transform: translateX(50%);
+}
+.pillarDescription {
+  max-width: 95%;
+  font-size: 1.5rem;
+}
+.pillarImage {
+  max-width: 95%;
+  border-radius: 50%;
+}
+.arrow {
+  font-size: 30px;
+}
+.open {
+  transform: translateX(0%);
+}
