@@ -4,9 +4,10 @@ import Navbar from "./Navbar";
 
 function Layout() {
   return (
-    <div className="wrapper">
+    <div>
       <Navbar />
       <Outlet />
+      <Footer />
     </div>
   );
 }

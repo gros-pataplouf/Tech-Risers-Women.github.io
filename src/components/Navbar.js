@@ -27,26 +27,23 @@ const Navbar = () => {
 
   return (
     <nav ref={ref} className={styles.navbar}>
-      <button className={styles.toggleButton} onClick={toggleNavbar}>
+      <button className={styles.hamburgerButton} onClick={toggleNavbar}>
         <div
-          style={{
-            background: navbarOpen ? "#003666" : "#ffca28",
-            transform: navbarOpen ? "rotate(46deg)" : "rotate(0)",
-          }}
+          className={
+            navbarOpen ? styles.hamburgerTopOpen : styles.hamburgerTopClosed
+          }
         />
 
         <div
-          style={{
-            background: navbarOpen ? "#003666" : "#ffca28",
-            opacity: navbarOpen ? "0" : "1",
-            transform: navbarOpen ? "translateX(20px)" : "translateX(0)",
-          }}
+          className={
+            navbarOpen ? styles.hamburgerMidOpen : styles.hamburgerMidClosed
+          }
         />
         <div
-          style={{
-            background: navbarOpen ? "#003666" : "#ffca28",
-            transform: navbarOpen ? "rotate(-44deg)" : "rotate(0)",
-          }}
+          className={
+            navbarOpen ? styles.hamburgerBottomOpen : styles.hamburgerBottomClosed
+          }
+   
         />
       </button>
       <NavLink
