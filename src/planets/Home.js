@@ -3,7 +3,8 @@ import styles from "./home.module.css";
 
 function Home() {
   return (
-    <div  className={styles.home}>
+    <div className={styles.home}>
+    
       <h1>Tech Risers Women</h1>
       <p>
         {" "}

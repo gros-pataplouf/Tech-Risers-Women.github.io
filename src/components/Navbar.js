@@ -27,7 +27,6 @@ const Navbar = () => {
 
   return (
     <nav ref={ref} className={styles.navbar}>
-      {" "}
       <button className={styles.toggleButton} onClick={toggleNavbar}>
         <div
           style={{
@@ -95,8 +94,10 @@ const Navbar = () => {
           </NavLink>
         </li>
       </ul>
+
+      {/* smallscreen Menu  */}
       {navbarOpen && (
-        <ul className={`${styles.smallScreenMenu} `}>
+        <ul className={`${styles.smallScreenMenu} ${styles.open}`}>
           <li className={styles.hamburgerLink}>
             <NavLink
               to="/"

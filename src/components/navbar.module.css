@@ -1,5 +1,9 @@
 /* navbar.module.css */
-
+.navbar img {
+  max-height: 3.75rem;
+  margin: -1rem;
+  padding: 0;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -7,43 +11,37 @@
   padding: 1rem;
   background-color: var(---basedark);
 }
-img {
-  max-height: 60px;
-  margin: -1rem;
-  padding: 0;
-}
+
 .toggleButton {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
   width: 1.5rem;
   height: 1.5rem;
   padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
   z-index: 20;
 }
 
 .toggleButton div {
   width: 1.7rem;
   height: 0.25rem;
+  margin: 0.3rem;
   border-radius: 2px;
   transition: all 0.4s linear;
   transform-origin: 1px;
-  margin: 0.3rem;
 }
 
 .bigScreenMenu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
   z-index: 9;
 }
 
 .bigScreenMenu li {
   margin-right: 1rem;
-
-  /* display: inline-block; */
 }
 
 .bigScreenMenu a {
@@ -51,12 +49,12 @@ img {
   color: var(---baselight);
   font-weight: bold;
   font-size: 1.2rem;
-
   transition: color 0.3s ease-in-out;
 }
 
 .bigScreenMenu a:hover {
   color: white;
+  opacity: 1;
 }
 
 .smallScreenMenu {
@@ -65,27 +63,32 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 0 0 5px 0;
-  padding-top: 80px;
-  background-color: var(---baselight);
   width: 30%;
-  box-shadow: 0 2px 10px rgba(0 0 0, 0.4);
-  z-index: 10;
+  padding: 5rem 0 2rem 2.5rem;
+  border-radius: 0 0 5px 0;
+  background-color: var(---baselight);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
   list-style: none;
-  padding: 80px 0 20px 20px;
-  margin: 0;
+  z-index: 10;
 }
 .smallScreenMenu a {
   text-decoration: none;
-  color: var(---basedark);
-  font-weight: bold;
   font-size: 1.5rem;
+  font-weight: bold;
+  color: var(---basedark);
   transition: color 0.3s ease-in-out;
 }
 .hamburgerLink {
+  margin-bottom: 0.5rem;
   padding: 1rem;
 }
-
+/*  */
+.active {
+  opacity: 0.7;
+}
+.activeLogo {
+  opacity: 0;
+}
 @media (max-width: 765px) {
   .bigScreenMenu {
     display: none;
@@ -95,11 +98,4 @@ img {
   .toggleButton {
     display: none;
   }
-}
-
-.active {
-  opacity: 0.7;
-}
-.activeLogo {
-  opacity: 0;
 }
