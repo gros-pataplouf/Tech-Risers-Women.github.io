@@ -1,5 +1,6 @@
 .home {
-  min-height: 200vh;
+  min-height: 250vh;
+  height: 100%;
   margin: 0;
   padding-top: 50px;
   background-color: #fffaf0;

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./intro.module.css";
+import styles from "./mainIntro.module.css";
 import womenImage from "../media/MaryWilkes.png";
 import "../app.css";
 
