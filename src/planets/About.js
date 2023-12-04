@@ -4,16 +4,16 @@ import styles from "./about.module.css";
 function About() {
   return (
     <div className={styles.about}>
-      <h1>ABOUT</h1>{" "}
+      <div className={styles.aboutHeroDivider}>
+        <div>
+          <h1 className={styles.heroone}> About</h1>
+        </div>
+      </div>
+
       <p>
-        Tech Risers Women - Pillars
-
-Community-driven
-
-Practical skills
-
-Professional Growth
-</p>
+        Tech Risers Women - Pillars Community-driven Practical skills
+        Professional Growth
+      </p>
     </div>
   );
 }

@@ -1,11 +1,39 @@
 .about {
-  min-height: 100vh;
+  min-height: 250vh;
+  height: 100%;
   margin: 0;
   padding-top: 50px;
-  background-color: #003666;
-  background-image: radial-gradient(circle, #ffc400b4 1px, transparent 0);
+  background-color: var(---base);
+  background-image: radial-gradient(circle, #0036667d 1px, transparent 0);
   background-size: 1.5rem 1.5rem;
   font-weight: 400;
   font-family: sans-serif;
-  color: #ffc300;
+  color: var(---baselight);
 }
+
+/*  */
+.aboutHeroDivider {
+  margin: -2rem 0 0;
+  padding-top: 1rem;
+  background-color: var(---basedark);
+  background-image: radial-gradient(circle, #ffc400b4 1px, transparent 0);
+  background-size: 1.5rem 1.5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  height: 110px;
+  position: relative;
+  transform: skew(0deg, -2deg);
+  z-index: 1;
+}
+.aboutHeroDivider h1 {
+  margin: 0;
+  padding: 0.4rem 0 0 0;
+}
+.aboutHeroDivider div {
+  transform: skew(0deg, 2deg);
+  font-family: var(---basefont);
+  font-size: 55px;
+  text-align: center;
+}
+/*  */
+
+ 

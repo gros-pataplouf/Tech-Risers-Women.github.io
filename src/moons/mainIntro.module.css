@@ -1,5 +1,6 @@
 .intro {
   margin: 2rem;
+  font-family: var(---basefont);
 }
 .introWrapper {
   display: grid;
@@ -8,7 +9,7 @@
   max-width: 70%;
   margin: 3rem auto;
   padding: 0.8rem 1.2rem;
-   border-radius: 4px;
+  border-radius: 4px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   background-color: var(---light);
   text-align: center;
@@ -21,22 +22,23 @@
   padding: 0.5rem 0.7rem;
 }
 .intro button:hover {
+  border: 2px solid var(---baselight);
   background-color: transparent;
   color: var(---basedark);
-  border: 2px solid var(---baselight);
 }
 .intro a {
   text-decoration: none;
-  transition: all 0.4s ease-in-out;
+  font-family: var(---basefont);
+  transition: all 0.3s ease-in-out;
 }
 .intro a:visited {
   color: inherit;
 }
 .buttonOne {
   padding: 0.5rem 0.7rem;
-  color: var(---light);
-  background-color: #214f94;
   border: 2px solid var(---basedark);
   border-radius: 3px;
+  background-color: #214f94;
+  color: var(---light);
   font-size: 20px;
 }

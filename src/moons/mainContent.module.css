@@ -9,20 +9,22 @@
   background-color: var(---light);
   text-align: center;
   font-size: 20px;
+  font-family: var(---basefont);
   color: var(---basedark);
 }
- 
+
 .mainLinkImage {
+  max-width: 80%;
   display: block;
   margin: 0 auto;
   border-radius: 50%;
 }
 .mainLinkDescription {
   padding: 0 1rem;
- }
+}
 .mainLink {
   font-size: 1.1rem;
-  color: var(---basedark);
+  color: var(---dark);
 }
 .mainLink:hover {
   color: var(---baselight);
