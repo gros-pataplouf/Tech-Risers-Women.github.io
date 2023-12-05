@@ -15,7 +15,12 @@
   background-color: var(---baselight);
   text-align: center;
 }
-.icon {
+
+.socialsLink {
   margin-inline: 0.3rem;
-  color:var(---dark);
+  color: var(---dark);
+}
+
+.socialsLink :hover {
+  color: var(---light);
 }

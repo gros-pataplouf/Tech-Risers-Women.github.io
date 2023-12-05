@@ -41,6 +41,6 @@
 .arrow {
   font-size: 30px;
 }
-.open {
+.pillars .open {
   transform: translateX(0%);
 }

@@ -8,20 +8,32 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <p className={styles.footerWrapper}>
-        <b>Tech Risers Women</b> is an initiative to empower women in tech through
-        collaborative learning, mentorship, group coding and networking sessions
+        <b>Tech Risers Women</b> is an initiative to empower women in tech
+        through collaborative learning, mentorship, group coding and networking
+        sessions
       </p>
       <p>
         {" "}
         contact us
         <span className={styles.icon}>
-          <FaXTwitter />
+          {" "}
+          <a href="/" alt="" className={styles.socialsLink}>
+            {" "}
+            <FaXTwitter />
+          </a>
         </span>
         <span className={styles.icon}>
-          <SiInstagram />
+          {" "}
+          <a href="/" alt="" className={styles.socialsLink}>
+            {" "}
+            <SiInstagram />
+          </a>
         </span>
         <span className={styles.icon}>
-          <LuMail />
+          <a href="/" alt="" className={styles.socialsLink}>
+            {" "}
+            <LuMail />
+          </a>
         </span>
       </p>
     </footer>
