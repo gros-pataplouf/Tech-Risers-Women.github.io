@@ -34,6 +34,18 @@
 }
 /*  */
 
+.noDonateHeadline {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 1s ease, transform 1.5s ease;
+}
+
+.donateHeadline {
+  opacity: 1;
+  transform: translateX(0%);
+}
+/*  */
+
 .donateWrapper {
   display: grid;
   grid-template-columns: 60% 40%;

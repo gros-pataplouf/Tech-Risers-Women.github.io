@@ -30,6 +30,17 @@
   transform: skew(0deg, 2deg);
   text-align: center;
   font-size: 3.4rem;
+} /*  */
+
+.noContactHeadline {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 1s ease, transform 1.5s ease;
+}
+
+.contactHeadline {
+  opacity: 1;
+  transform: translateX(0%);
 }
 /*  */
 .contactWrapper {
