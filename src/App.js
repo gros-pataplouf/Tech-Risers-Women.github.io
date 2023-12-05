@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import "./app.css";
+import "./App.css";
 import Layout from "./components/Layout";
 import Home from "./planets/Home";
 import About from "./planets/About";
