@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./mainIntro.module.css";
 import womenImage from "../media/MaryWilkes.png";
-import "../app.css";
+
 
 function intro() {
   return (
