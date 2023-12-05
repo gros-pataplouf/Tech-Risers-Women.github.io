@@ -8,13 +8,19 @@ function Home() {
 
   useEffect(() => {
     setFadeIn(true);
-  }, []);
+  });
 
   return (
     <div className={styles.home}>
       <div className={styles.heroDivider}>
         <div>
-          <h1 className={styles.heroOne}>Tech </h1>
+          <h1
+            className={`${styles.noHeadlineOne} ${
+              fadeIn ? styles.headlineOne : ""
+            }`}
+          >
+            Tech{" "}
+          </h1>
         </div>
 
         <div
@@ -23,7 +29,14 @@ function Home() {
           }`}
         ></div>
         <div>
-          <h1 className={styles.heroTwo}> Risers </h1>
+          <h1
+            className={`${styles.noHeadlineTwo} ${
+              fadeIn ? styles.headlineTwo : ""
+            }`}
+          >
+            {" "}
+            Risers{" "}
+          </h1>
         </div>
         <div
           className={`${styles.noheadlineDivider} ${
@@ -32,7 +45,14 @@ function Home() {
         ></div>
 
         <div>
-          <h1 className={styles.heroThree}> Women</h1>
+          <h1
+            className={`${styles.noHeadlineThree} ${
+              fadeIn ? styles.headlineThree : ""
+            }`}
+          >
+            {" "}
+            Women
+          </h1>
         </div>
       </div>
       <Intro />

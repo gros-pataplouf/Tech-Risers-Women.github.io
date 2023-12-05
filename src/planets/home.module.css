@@ -2,7 +2,7 @@
   min-height: 250vh;
   height: 100%;
   margin: 0;
- padding-top: 3.1rem;
+  padding-top: 3.1rem;
   background-color: #fffaf0;
   background-image: radial-gradient(circle, #0036667d 1px, transparent 0);
   background-size: 1.5rem 1.5rem;
@@ -33,16 +33,37 @@
   font-size: 3.4rem;
   text-align: center;
 }
-.heroOne,
-.heroTwo,
-.heroThree {
-  transform: skew(0deg, 2deg);
+/*  */
+.noHeadlineOne {
+  transition: opacity 1s ease-in-out, transform 1.7s ease-in-out;
+  opacity: 0;
+  transform: translateX(-100%) skew(0deg, 2deg);
 }
+
+.noHeadlineTwo {
+  transition: opacity 1s ease-in-out, transform 1.8s ease-in-out;
+  opacity: 0;
+  transform: translateX(-120%) skew(0deg, 2deg);
+}
+
+.noHeadlineThree {
+  transition: opacity 1s ease-in-out, transform 1.9s ease-in-out;
+  opacity: 0;
+  transform: translateX(-140%) skew(0deg, 2deg);
+}
+
+.headlineOne,
+.headlineTwo,
+.headlineThree {
+  opacity: 1;
+  transform: translateX(0%) skew(0deg, 2deg);
+}
+
 /*  */
 
 .noheadlineDivider {
   transform: translateX(-100%) skew(0deg, 2deg);
-  transition: opacity 1s ease-in-out, transform 1.5s ease-in-out;
+  transition: opacity 1s ease-in-out, transform 1.8s ease-in-out;
   opacity: 0;
 }
 .headlineDivider,
