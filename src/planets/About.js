@@ -1,13 +1,41 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styles from "./about.module.css";
 import Pillars from "../moons/Pillars.js";
 
 function About() {
+  const [isInViewport, setIsInViewport] = useState(false);
+  const aboutHeroDividerRef = useRef(null);
+
+  useEffect(() => {
+    const handleIntersection = (entries) => {
+      const isIntersecting = entries[0].isIntersecting;
+      setIsInViewport(isIntersecting);
+    };
+
+    const observer = new IntersectionObserver(handleIntersection);
+
+    if (aboutHeroDividerRef.current) {
+      observer.observe(aboutHeroDividerRef.current);
+    }
+
+    return () => {
+      if (aboutHeroDividerRef.current) {
+        observer.unobserve(aboutHeroDividerRef.current);
+      }
+    };
+  });
+
   return (
     <div className={styles.about}>
-      <div className={styles.aboutHeroDivider}>
+      <div ref={aboutHeroDividerRef} className={styles.aboutHeroDivider}>
         <div>
-          <h1> About</h1>
+          <h1
+            className={`${styles.noAboutHeadline} ${
+              isInViewport ? styles.aboutHeadline : styles.noAboutHeadline
+            }`}
+          >
+            About
+          </h1>
         </div>
       </div>
       <div className={styles.aboutIntro}>

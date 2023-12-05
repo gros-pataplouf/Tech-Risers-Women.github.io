@@ -2,7 +2,7 @@
   min-height: 250vh;
   height: 100%;
   margin: 0;
- padding-top: 3.1rem;
+  padding-top: 3.1rem;
   background-color: var(---light);
   background-image: radial-gradient(circle, #0036667d 1px, transparent 0);
   background-size: 1.5rem 1.5rem;
@@ -32,6 +32,18 @@
   font-family: var(---basefont);
   font-size: 3.4rem;
   text-align: center;
+}
+/*  */
+
+.noAboutHeadline {
+  opacity: 0;
+  transform: translateX(-100%); 
+  transition: opacity 1s ease, transform 1.5s ease;
+}
+
+.aboutHeadline {
+  opacity: 1;
+  transform: translateX(0%);
 }
 /*  */
 
