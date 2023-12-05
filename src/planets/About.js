@@ -13,17 +13,17 @@ function About() {
     };
 
     const observer = new IntersectionObserver(handleIntersection);
-
-    if (aboutHeroDividerRef.current) {
-      observer.observe(aboutHeroDividerRef.current);
+    const currentRef = aboutHeroDividerRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (aboutHeroDividerRef.current) {
-        observer.unobserve(aboutHeroDividerRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
-  });
+  }, [aboutHeroDividerRef]);
 
   return (
     <div className={styles.about}>

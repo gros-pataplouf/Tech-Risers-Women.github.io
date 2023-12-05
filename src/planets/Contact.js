@@ -16,16 +16,17 @@ function Contact() {
 
     const observer = new IntersectionObserver(handleIntersection);
 
-    if (contactHeroDividerRef.current) {
-      observer.observe(contactHeroDividerRef.current);
+    const currentRef = contactHeroDividerRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (contactHeroDividerRef.current) {
-        observer.unobserve(contactHeroDividerRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
-  });
+  }, [contactHeroDividerRef]);
   return (
     <div className={styles.contact}>
       <div ref={contactHeroDividerRef} className={styles.contactHeroDivider}>

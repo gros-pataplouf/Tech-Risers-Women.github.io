@@ -13,17 +13,17 @@ function Donate() {
     };
 
     const observer = new IntersectionObserver(handleIntersection);
-
-    if (donateHeroDividerRef.current) {
-      observer.observe(donateHeroDividerRef.current);
+    const currentRef = donateHeroDividerRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (donateHeroDividerRef.current) {
-        observer.unobserve(donateHeroDividerRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
-  });
+  }, [donateHeroDividerRef]);
   return (
     <div className={styles.donate}>
       <div ref={donateHeroDividerRef} className={styles.donateHeroDivider}>

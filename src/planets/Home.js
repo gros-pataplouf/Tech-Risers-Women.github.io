@@ -8,7 +8,7 @@ function Home() {
 
   useEffect(() => {
     setFadeIn(true);
-  });
+  },[]);
 
   return (
     <div className={styles.home}>

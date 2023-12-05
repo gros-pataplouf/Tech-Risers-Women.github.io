@@ -35,7 +35,7 @@
 .noContactHeadline {
   opacity: 0;
   transform: translateX(-100%);
-  transition: opacity 1s ease, transform 1.5s ease;
+  transition: opacity 1s ease-in-out, transform 1.7s ease-in-out;
 }
 
 .contactHeadline {
