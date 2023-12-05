@@ -1,8 +1,8 @@
 .donate {
-  min-height: 100vh;
+  min-height: 120vh;
   height: 100%;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 3.1rem;
   background-color: var(---light);
   background-image: radial-gradient(circle, #0036667d 1px, transparent 0);
   background-size: 1.5rem 1.5rem;
@@ -30,10 +30,10 @@
 .donateHeroDivider div {
   transform: skew(0deg, 2deg);
   text-align: center;
-  font-size: 55px;
+  font-size: 3.4rem;
 }
 /*  */
- 
+
 .donateWrapper {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -48,7 +48,7 @@
   font-size: 24px;
   color: var(---basedark);
 }
-.donate  img {
+.donate img {
   max-width: 98%;
   min-width: 98%;
   padding: 0.5rem 0.7rem;

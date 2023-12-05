@@ -1,9 +1,56 @@
-.contact{  min-height: 100vh;
+.contact {
+  min-height: 100vh;
+  height: 100%;
   margin: 0;
-  padding-top: 50px;
-  background-color: #003666;
+  padding-top: 3.1rem;
+  background-color: var(---basedark);
   background-image: radial-gradient(circle, #ffc400b4 1px, transparent 0);
   background-size: 1.5rem 1.5rem;
   font-weight: 400;
-  font-family: sans-serif;
-  color: #ffc300;}
+  font-family: var(---basefont);
+  color: var(---basedark);
+}
+
+.contactHeroDivider {
+  height: 110px;
+  margin: -2rem 0 0;
+  padding-top: 1rem;
+  background-color: var(---light);
+  background-image: radial-gradient(circle, #0036667d 1px, transparent 0);
+  background-size: 1.5rem 1.5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: skew(0deg, -2deg);
+  z-index: 1;
+}
+.contactHeroDivider h1 {
+  margin: 0;
+  padding: 0.3rem 0 0 0;
+}
+.contactHeroDivider div {
+  transform: skew(0deg, 2deg);
+  text-align: center;
+  font-size: 3.4rem;
+}
+/*  */
+.contactWrapper {
+  background-color: var(---light);
+  margin: 5rem;
+  padding: 3rem;
+}
+.contactWrapper p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+/*  */
+.contactLinks {
+  text-align: center;
+}
+.contactLink {
+  margin-inline: 1.5rem;
+  font-size: 2.2rem;
+  color: var(---dark);
+}
+
+.contactLink :hover {
+  color: var(---baselight);
+}

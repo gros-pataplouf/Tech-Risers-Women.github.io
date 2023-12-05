@@ -7,7 +7,7 @@ function About() {
     <div className={styles.about}>
       <div className={styles.aboutHeroDivider}>
         <div>
-          <h1 className={styles.heroone}> About</h1>
+          <h1> About</h1>
         </div>
       </div>
       <div className={styles.aboutIntro}>
