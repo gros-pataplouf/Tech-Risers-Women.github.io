@@ -48,7 +48,10 @@ function About() {
           environment where women excell in the tech world.
         </p>
       </div>
-      <Pillars />
+      <div className={styles.pillars}>
+        <Pillars />
+      </div>
+      <div className={styles.smallScreenPillars}></div>
     </div>
   );
 }

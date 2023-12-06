@@ -41,13 +41,13 @@ function Contact() {
         </div>
       </div>
       <div className={styles.contactWrapper}>
-        <p>Get in Touch </p>
+        <h2>Get in Touch </h2>
         <p>
           If you have any questions or would like to learn more about{" "}
           <em>Tech Risers Women</em>, please don't hesitate to contact us. We
           also welcome curious women to join our Wednesday group sessions.
         </p>
-        <div className={styles.contactLinks}>
+        <div>
           <a href="/" alt="" className={styles.contactLink}>
             <FaXTwitter />
           </a>

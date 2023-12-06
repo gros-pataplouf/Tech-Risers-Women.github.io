@@ -13,25 +13,29 @@
 }
 
 .contactHeroDivider {
-  height: 110px;
+  height: 7.2rem;
   margin: -2rem 0 0;
   padding-top: 1rem;
   background-color: var(---light);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   background-image: radial-gradient(circle, #0036667d 1px, transparent 0);
   background-size: 1.5rem 1.5rem;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transform: skew(0deg, -2deg);
   z-index: 1;
 }
+
 .contactHeroDivider h1 {
   margin: 0;
   padding: 0.3rem 0 0 0;
 }
+
 .contactHeroDivider div {
   transform: skew(0deg, 2deg);
   text-align: center;
   font-size: 3.4rem;
-} /*  */
+}
+
+/* Headline Animation */
 
 .noContactHeadline {
   opacity: 0;
@@ -43,20 +47,26 @@
   opacity: 1;
   transform: translateX(0%);
 }
-/*  */
+
+/*  Content */
+
 .contactWrapper {
-  background-color: var(---light);
   margin: 5rem;
   padding: 3rem;
+  background-color: var(---light);
+  text-align: center;
 }
+
+.contactWrapper h2,
 .contactWrapper p {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
-/*  */
-.contactLinks {
-  text-align: center;
+
+.contactWrapper p {
+  line-height: 1.5;
 }
+
 .contactLink {
   margin-inline: 1.5rem;
   font-size: 2.2rem;
@@ -66,3 +76,56 @@
 .contactLink :hover {
   color: var(---baselight);
 }
+@media (max-width: 768px) {
+  .contactHeroDivider {
+    height: 5.2rem;
+  }
+  .contactHeroDivider div {
+    font-size: 2rem;
+  }
+
+  .contactWrapper {
+    margin: 2rem;
+    padding: 1rem 2rem;
+  }
+  .contactWrapper p {
+    line-height: 1.4;
+    font-size: 1.4rem;
+  }
+
+  .contactLink {
+    margin-inline: 1.2rem;
+    font-size: 1.9rem;
+  }
+}
+@media (max-width: 450px) {
+  .contactHeroDivider {
+    margin: -2.5rem 0 0;
+    height: 5.1rem;
+  }
+  .contactHeroDivider h1 {
+    padding: 0.5rem 0 0 0;
+  }
+  .contactWrapper {
+    margin: 2rem 1rem;
+    padding: 1rem 1rem;
+  }
+  .contactWrapper h2 {
+    font-size: 1.5rem;
+  }
+  .contactWrapper p {
+    line-height: 1.4;
+    font-size: 1.2rem;
+  }
+
+  .contactLink {
+    margin-inline: 1rem;
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 360px) {
+  .contactHeroDivider div {
+    font-size: 1.8rem;
+  }
+}
+/* done */

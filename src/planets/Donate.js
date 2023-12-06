@@ -39,7 +39,7 @@ function Donate() {
       </div>
       <div className={styles.donateWrapper}>
         <div>
-          <h4> Help us to empower women in tech today</h4>
+          <h2> Help us to empower women in tech today</h2>
           <p>
             Contribute to our mission by making a donation. Your support helps
             to provide opportunities for skill-building, mentorship, and
