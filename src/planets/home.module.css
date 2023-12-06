@@ -1,8 +1,9 @@
 .home {
-  min-height: 250vh;
+  min-height: 100vh;
   height: 100%;
   margin: 0;
   padding-top: 3.1rem;
+  padding-bottom: 3rem;
   background-color: #fffaf0;
   background-image: radial-gradient(circle, #0036667d 1px, transparent 0);
   background-size: 1.5rem 1.5rem;
