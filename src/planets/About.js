@@ -15,6 +15,7 @@ function About() {
 
     const observer = new IntersectionObserver(handleIntersection);
     const currentRef = aboutHeroDividerRef.current;
+
     if (currentRef) {
       observer.observe(currentRef);
     }
@@ -24,7 +25,7 @@ function About() {
         observer.unobserve(currentRef);
       }
     };
-  }, [aboutHeroDividerRef]);
+  }, []); 
 
   return (
     <div className={styles.about}>

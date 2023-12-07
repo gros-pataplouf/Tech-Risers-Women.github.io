@@ -6,9 +6,9 @@ import MainContent from "../moons/MainContent.js";
 function Home() {
   const [fadeIn, setFadeIn] = useState(false);
 
-  useEffect(() => {
-    setFadeIn(true);
-  },[]);
+useEffect(() => {
+  setFadeIn(true);
+}, []);
 
   return (
     <div className={styles.home}>
