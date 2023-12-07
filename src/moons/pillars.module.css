@@ -2,15 +2,13 @@
   padding-bottom: 3rem;
 }
 
-.pillar1,
-.pillar2,
-.pillar3 {
+.pillars > div {
   display: grid;
   justify-items: stretch;
   align-items: center;
   min-height: 20rem;
   margin: 3rem auto 0;
-  padding: 0.8rem 1.2rem;
+  padding: 1.2rem;
   background-color: var(---basedark);
   color: var(---baselight);
   cursor: pointer;
@@ -19,28 +17,59 @@
 
 .pillar1,
 .pillar3 {
-  grid-template-columns: 50% 25% 20% 5%;
+  grid-template-columns: 48% 25% 22% 5%;
   border-radius: 0 10rem 10rem 0;
-  transform: translateX(-50%);
+  transform: translateX(-48%);
 }
 
 .pillar2 {
-  grid-template-columns: 5% 20% 25% 50%;
+  grid-template-columns: 5% 22% 25% 48%;
   border-radius: 10rem 0 0 10rem;
   text-align: end;
-  transform: translateX(50%);
+  transform: translateX(48%);
 }
+
 .pillarDescription {
-  max-width: 95%;
-  font-size: 1.5rem;
+  line-height: 1.2;
+  font-size: 1.4rem;
+  font-weight: 300;
 }
+
+.pillars h2 {
+  font-size: 2rem;
+}
+
+.pillar1Headline,
+.pillar3Headline {
+  padding: 0 0 0 1rem;
+}
+
+.pillar2Headline {
+  padding: 0 1rem 0;
+}
+
 .pillarImage {
-  max-width: 95%;
   border-radius: 50%;
 }
-.arrow {
-  font-size: 30px;
+
+.pillars .arrow {
+  font-size: 1.9rem;
 }
+
 .pillars .open {
   transform: translateX(0%);
+}
+
+@media (max-width: 1024px) {
+  .pillarDescription {
+    font-size: 1.2rem;
+  }
+
+  .pillars h2 {
+    font-size: 1.6rem;
+  }
+
+  .pillars .arrow {
+    font-size: 1.7rem;
+  }
 }

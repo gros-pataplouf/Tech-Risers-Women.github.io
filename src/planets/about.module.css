@@ -87,6 +87,17 @@
   .pillars {
     display: none;
   }
+  .smallScreenPillars {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .pillars {
+    display: block;
+  }
+  .smallScreenPillars {
+    display: none;
+  }
 }
 @media (max-width: 450px) {
   .aboutHeroDivider {

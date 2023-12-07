@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./about.module.css";
 import Pillars from "../moons/Pillars.js";
+import PillarsSmallScreen from "../moons/PillarsSmallScreen.js";
 
 function About() {
   const [isInViewport, setIsInViewport] = useState(false);
@@ -51,7 +52,9 @@ function About() {
       <div className={styles.pillars}>
         <Pillars />
       </div>
-      <div className={styles.smallScreenPillars}></div>
+      <div className={styles.smallScreenPillars}>
+        <PillarsSmallScreen />
+      </div>
     </div>
   );
 }
