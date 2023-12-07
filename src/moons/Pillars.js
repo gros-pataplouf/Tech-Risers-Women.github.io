@@ -3,8 +3,8 @@ import styles from "./pillars.module.css";
 import pillar1Image from "../media/BettyWebb.png";
 import pillar2Image from "../media/hedyLamarr.png";
 import pillar3Image from "../media/carolShaw.png";
-import { MdArrowForwardIos } from "react-icons/md";
-import { MdArrowBackIosNew } from "react-icons/md";
+import { SlArrowRight } from "react-icons/sl";
+import { SlArrowLeft } from "react-icons/sl";
 
 function Pillars() {
   const [info, setInfo] = useState(styles.pillar1);
@@ -40,14 +40,14 @@ function Pillars() {
         <img src={pillar1Image} alt="" className={styles.pillarImage}></img>{" "}
         <h2 className={styles.pillar1Headline}>Community-driven</h2>
         <span className={styles.arrow}>
-          <MdArrowForwardIos />
+          <SlArrowRight />
         </span>
       </div>
 
       {/* Pillar 2 */}
       <div className={`${styles.pillar2} ${info2}`} onClick={handleClick2}>
         <span className={styles.arrow}>
-          <MdArrowBackIosNew />
+          <SlArrowLeft />
         </span>
         <h2 className={styles.pillar2Headline}>Practical Skills</h2>{" "}
         <img src={pillar2Image} alt="" className={styles.pillarImage}></img>
@@ -75,7 +75,7 @@ function Pillars() {
         <img src={pillar3Image} alt="" className={styles.pillarImage}></img>
         <h2 className={styles.pillar3Headline}>Professional Growth</h2>{" "}
         <span className={styles.arrow}>
-          <MdArrowForwardIos />
+          <SlArrowRight />
         </span>
       </div>
     </div>
