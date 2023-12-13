@@ -17,11 +17,11 @@
 }
 
 .socialsLink {
-  margin-inline: 0.3rem;
+  margin-inline: 0.5rem;
   color: var(---dark);
 }
 
 .socialsLink :hover {
   color: var(---light);
 }
-/* done */
+

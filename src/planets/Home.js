@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./home.module.css";
 import Intro from "../moons/MainIntro.js";
-import MainContent from "../moons/MainContent.js";
+// import MainContent from "../moons/MainContent.js";
 
 function Home() {
   const [fadeIn, setFadeIn] = useState(false);
@@ -56,7 +56,8 @@ useEffect(() => {
         </div>
       </div>
       <Intro />
-      <MainContent />
+      {/* <MainContent /> */}
+      {/* Main content: links to about, group sessions, donation */}
     </div>
   );
 }

@@ -70,11 +70,11 @@
 .contactLink {
   margin-inline: 1.5rem;
   font-size: 2.2rem;
-  color: var(---dark);
+  color: var(---baselight);
 }
 
 .contactLink :hover {
-  color: var(---baselight);
+  color: var(---dark);
 }
 @media (max-width: 768px) {
   .contactHeroDivider {

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./contact.module.css";
-import { FaXTwitter } from "react-icons/fa6";
-import { SiInstagram } from "react-icons/si";
+// import { FaXTwitter } from "react-icons/fa6";
+// import { SiInstagram } from "react-icons/si";
 import { LuMail } from "react-icons/lu";
 
 function Contact() {
@@ -48,12 +48,13 @@ function Contact() {
           also welcome curious women to join our Wednesday group sessions.
         </p>
         <div>
-          <a href="/" alt="" className={styles.contactLink}>
+          {/* <a href="/" alt="" className={styles.contactLink}>
             <FaXTwitter />
           </a>
           <a href="/" alt="" className={styles.contactLink}>
             <SiInstagram />
-          </a>
+          </a> */}
+        
           <a href="/" target="_blank" alt="" className={styles.contactLink}>
             <LuMail />
           </a>

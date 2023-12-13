@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./footer.module.css";
-import { FaXTwitter } from "react-icons/fa6";
-import { SiInstagram } from "react-icons/si";
+// import { FaXTwitter } from "react-icons/fa6";
+// import { SiInstagram } from "react-icons/si";
 import { LuMail } from "react-icons/lu";
 
 function Footer() {
@@ -15,24 +15,23 @@ function Footer() {
       <p>
         {" "}
         contact us
-        <span className={styles.icon}>
+        {/* <span className={styles.icon}>
           {" "}
           <a href="/" alt="" className={styles.socialsLink}>
             {" "}
             <FaXTwitter />
           </a>
-        </span>
-        <span className={styles.icon}>
+        </span> */}
+        {/* <span className={styles.icon}>
           {" "}
           <a href="/" alt="" className={styles.socialsLink}>
-            {" "}
+    
             <SiInstagram />
           </a>
-        </span>
+        </span> */}
         <span className={styles.icon}>
           <a href="/" alt="" className={styles.socialsLink}>
-            {" "}
-            <LuMail />
+              <LuMail />
           </a>
         </span>
       </p>

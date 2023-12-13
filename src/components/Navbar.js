@@ -33,14 +33,14 @@ function Navbar() {
             About
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             to="donate"
             className={({ isActive }) => (isActive ? styles.active : "")}
           >
             Donate
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink
             to="contact"

@@ -7,22 +7,23 @@ function intro() {
   return (
     <div className={styles.intro}>
       <div className={styles.introWrapper}>
-        <div>
-          <p>
+          <div>
+           <p>
             Fostering empowerment in the tech industry, our comunity-run
             initiative brings together women through regular meetings and group
             coding sessions. We provide a platform for collaborative learning,
             mentorship, and networking, creating a community that champions
             diversity and innovation. Join us as we inspire, support, and propel
             women in tech toward their professional goals
-          </p>
-          <button className={styles.buttonOne}>
-            <a href="/" alt="learn more about Tech risers Women">
- 
-              learn more
+           </p>
+        
+            <a href="/about" alt="learn more about Tech risers Women">
+              <button className={styles.buttonOne}>
+              learn more 
+              </button>
             </a>
-          </button>
-        </div>
+        
+          </div>
         <div>
           <img src={womenImage} alt="" className={styles.introImage} />
         </div>
