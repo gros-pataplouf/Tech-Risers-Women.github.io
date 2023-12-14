@@ -16,12 +16,14 @@
   text-align: center;
 }
 
-.socialsLink {
-  margin-inline: 0.5rem;
+.contactLink {
+  position: relative;
+  top: 0.2rem;
+  margin-inline: 0.5rem 0.9rem;
   color: var(---dark);
 }
 
-.socialsLink :hover {
+.contactLink :hover {
   color: var(---light);
 }
 
