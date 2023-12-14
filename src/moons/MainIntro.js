@@ -18,14 +18,19 @@ function intro() {
            </p>
         
             <a href="/about" alt="learn more about Tech risers Women">
-              <button className={styles.buttonOne}>
+              <button className={styles.aboutButton}>
               learn more 
+              </button>
+            </a>
+               <a href="https://forms.gle/MqyXV2HPRtUMAopE6" target="_blank" rel="noreferrer" alt="sign up for updates about Tech risers Women">
+              <button className={styles.getUpdatesButton}>
+              get updates
               </button>
             </a>
         
           </div>
         <div>
-          <img src={womenImage} alt="" className={styles.introImage} />
+          <img src={womenImage} alt="Mary Allen Wilkes working on one of the first PCs" className={styles.introImage} />
         </div>
       </div>
     </div>

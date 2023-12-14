@@ -40,7 +40,8 @@
   color: inherit;
 }
 
-.buttonOne {
+.aboutButton, .getUpdatesButton {
+  margin: 1rem;
   padding: 0.5rem 0.7rem;
   border: 2px solid var(---basedark);
   border-radius: 3px;
