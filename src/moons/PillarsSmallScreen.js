@@ -47,7 +47,7 @@ function Pillars() {
     <div className={styles.pillars}>
       {/* Pillar 1 */}
       <div className={styles.pillar} onClick={handleClick}>
-        <img src={pillar1Image} alt="" className={styles.pillarImage} />
+        <img src={pillar1Image}  alt="headline: Community-driven. In front of Betty Webb at Bletchley Park"   className={styles.pillarImage} />
         <div className={`${styles.arrowClosed} ${arrow}`}>
           <SlArrowDown />
         </div>
@@ -60,11 +60,11 @@ function Pillars() {
       </div>
       {/* Pillar 2 */}
       <div className={styles.pillar} onClick={handleClick2}>
-        <img src={pillar2Image} alt="" className={styles.pillarImage} />
+        <img src={pillar2Image} alt="headline: Practical Skills. In front of Hedy Lamarr - the mind behind secure WiFi, GPS and Bluetooth" className={styles.pillarImage} />
         <div className={`${styles.arrowClosed} ${arrow2}`}>
           <SlArrowDown />
         </div>
-      </div>{" "}
+      </div>
       <div className={`${styles.pillarClosed} ${info2}`} onClick={handleClick2}>
         The focus here is on providing tangible, hands-on skills that are
         directly applicable in the tech field. Workshops, training sessions, and
@@ -76,7 +76,7 @@ function Pillars() {
       </div>
       {/* Pillar 3 */}
       <div className={styles.pillar} onClick={handleClick3}>
-        <img src={pillar3Image} alt="" className={styles.pillarImage} />
+        <img src={pillar3Image} alt="headline: Professional Growth. In front of Carol Shaw, the first female video game developer, sitting on her desk" className={styles.pillarImage} />
         <div className={`${styles.arrowClosed} ${arrow3}`}>
           <SlArrowDown />
         </div>

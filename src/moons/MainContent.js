@@ -8,20 +8,26 @@ function MainContent() {
   return (
     <div className={styles.mainContentWrapper}>
       <div>
-        <img src={mainLinkImage} alt="" className={styles.mainLinkImage} />
+        <img src={mainLinkImage} 
+           alt="Annie Easley, computer science pioneer in the Engine Research Building's Central Control Room" 
+           className={styles.mainLinkImage} />
       </div>
       <div>
-        <img src={mainLinkImage2} alt="" className={styles.mainLinkImage} />
+        <img src={mainLinkImage2} 
+           alt="Grace Hopper, who worked on the UNIVAC computer series and developed the programming language COBOL" 
+           className={styles.mainLinkImage} />
       </div>
       <div>
-        <img src={mainLinkImage3} alt="" className={styles.mainLinkImage} />
+        <img src={mainLinkImage3} 
+           alt="Melba Mouton standing next to a experimenters test control machine" 
+           className={styles.mainLinkImage} />
       </div>
       <div>
         <p className={styles.mainLinkDescription}>
           With our initiatives, we unite women who code, encourage collaboration
           and community.
         </p>
-      </div>{" "}
+      </div>
       <div>
         <p className={styles.mainLinkDescription}>
           Every Wednesday we we come together to learn, share skills and and
@@ -34,17 +40,23 @@ function MainContent() {
         </p>
       </div>
       <div>
-        <a href="/" className={styles.mainLink}>
+        <a href="/" 
+           alt="learn more about what Tech Risers Women stands for" 
+           className={styles.mainLink}>
           learn more about our initiatives
         </a>
       </div>
       <div>
-        <a href="/" className={styles.mainLink}>
+        <a href="/" 
+           alt="sign up to join our group coding sessions" 
+           className={styles.mainLink}>
           join our group coding sessions
         </a>
       </div>
       <div>
-        <a href="/" className={styles.mainLink}>
+        <a href="/" 
+           alt="help and donate to Tech Risers Women" 
+           className={styles.mainLink}>
           donate to Tech Risers Women
         </a>
       </div>

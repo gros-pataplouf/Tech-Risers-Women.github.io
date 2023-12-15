@@ -29,7 +29,8 @@ function Pillars() {
   return (
     <div className={styles.pillars}>
       {/* Pillar 1 */}
-      <div className={`${styles.pillar1} ${info}`} onClick={handleClick}>
+      <div className={`${styles.pillar1} ${info}`} 
+           onClick={handleClick}>
         <div className={styles.pillarDescription}>
           Tech Risers Women emphasizes the creation of a supportive and
           collaborative community amongst women in tech. We want to build
@@ -37,20 +38,28 @@ function Pillars() {
           ultimately to gain confidence, feel heard, and thrive with a sense of
           belonging
         </div>
-        <img src={pillar1Image} alt="" className={styles.pillarImage}></img>{" "}
-        <h2 className={styles.pillar1Headline}>Community-driven</h2>
+        <img src={pillar1Image} 
+             alt="Betty Webb at Bletchley Park"  
+             className={styles.pillarImage}/>
+        <h2 className={styles.pillar1Headline}>
+          Community-driven
+        </h2>
         <span className={styles.arrow}>
           <SlArrowRight />
         </span>
       </div>
 
       {/* Pillar 2 */}
-      <div className={`${styles.pillar2} ${info2}`} onClick={handleClick2}>
+      <div className={`${styles.pillar2} ${info2}`} 
+           onClick={handleClick2}>
         <span className={styles.arrow}>
           <SlArrowLeft />
         </span>
-        <h2 className={styles.pillar2Headline}>Practical Skills</h2>{" "}
-        <img src={pillar2Image} alt="" className={styles.pillarImage}></img>
+        <h2 className={styles.pillar2Headline}>
+          Practical Skills
+        </h2>{" "}
+        <img src={pillar2Image} alt="Hedy Lamarr, The mind behind secure WiFi, GPS and Bluetooth" 
+             className={styles.pillarImage}/>
         <div className={styles.pillarDescription}>
           The focus here is on providing tangible, hands-on skills that are
           directly applicable in the tech field. Workshops, training sessions,
@@ -62,7 +71,8 @@ function Pillars() {
         </div>
       </div>
       {/* Pillar 3 */}
-      <div className={`${styles.pillar3} ${info3}`} onClick={handleClick3}>
+      <div className={`${styles.pillar3} ${info3}`} 
+           onClick={handleClick3}>
         <div className={styles.pillarDescription}>
           We want to create an environment that supports continuous learning and
           mentorship to foster the professional development of women in tech.
@@ -72,8 +82,12 @@ function Pillars() {
           through skill-building, networking, or mentorship programs, ultimately
           contributing to their success in the tech sector.
         </div>
-        <img src={pillar3Image} alt="" className={styles.pillarImage}></img>
-        <h2 className={styles.pillar3Headline}>Professional Growth</h2>{" "}
+        <img src={pillar3Image} 
+             alt="Carol Shaw, the first female video game developer, sitting on her desk" 
+             className={styles.pillarImage}/>
+        <h2 className={styles.pillar3Headline}>
+          Professional Growth
+        </h2>
         <span className={styles.arrow}>
           <SlArrowRight />
         </span>
