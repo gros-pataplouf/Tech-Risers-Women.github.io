@@ -1,7 +1,7 @@
 {
   "name": "tech-risers-women",
   "version": "0.1.0",
-  "homepage": "http://github.com/Tech-Risers-Women/Tech-Risers-Women.github.io",
+  "homepage": "http://github.com/Tech-Risers-Women/main",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
