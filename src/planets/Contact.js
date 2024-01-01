@@ -58,7 +58,7 @@ function Contact() {
             <div className={styles.contactLinks}>
               <div className={styles.linkWrapper}>
                 <a 
-                href="mailto:sarahnusher@gmail.com?subject=Tech Risers Women" 
+                href="mailto:techriserswomen@gmail.com?subject=Tech Risers Women" 
                 target="_blank" 
                 rel="noreferrer" 
                 alt="send an Email to Tech Risers Women to get in touch" 
