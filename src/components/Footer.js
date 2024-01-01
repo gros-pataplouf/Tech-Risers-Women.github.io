@@ -16,7 +16,7 @@ function Footer() {
       <p>       
         contact us
         <span className={styles.icon}>
-          <a  href="mailto:sarahnusher@gmail.com?subject=Tech Risers Women" 
+          <a  href="mailto:techriserswomen@gmail.com?subject=Tech Risers Women" 
               target="_blank" 
               rel="noreferrer" 
               alt="send an Email to Tech Risers Women to get in touch"  
