@@ -9,7 +9,7 @@ function intro() {
       <div className={styles.introWrapper}>
           <div>
            <p>
-            Fostering empowerment in the tech industry, our comunity-run
+            Fostering empowerment in the tech industry, our community-run
             initiative brings together women through regular meetings and group
             coding sessions. We provide a platform for collaborative learning,
             mentorship, and networking, creating a community that champions
