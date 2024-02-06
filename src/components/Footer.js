@@ -47,6 +47,25 @@ function Footer() {
           </a>
         </span>
       </p>
+      <p className={styles.footnote}>
+        This website is{' '}
+        <a
+          href='https://github.com/Tech-Risers-Women/Tech-Risers-Women.github.io'
+          target='_blank'
+          rel='noreferrer'
+          alt='Tech risers women gitHub repository'>
+          open source
+        </a>
+        , developed by{' '}
+        <a
+          href='https://www.eva-nagengast.com'
+          target='_blank'
+          rel='noreferrer'
+          alt='Eva Nagengasts website'>
+          Eva Nagengast
+        </a>
+        .
+      </p>
     </footer>
   );
 }
