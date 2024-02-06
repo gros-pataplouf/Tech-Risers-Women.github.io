@@ -1,9 +1,9 @@
-import React from "react";
-import styles from "./footer.module.css";
+import React from 'react';
+import styles from './footer.module.css';
 // import { FaXTwitter } from "react-icons/fa6";
 // import { SiInstagram } from "react-icons/si";
-import { LuMail } from "react-icons/lu";
-import { TbHeartCode } from "react-icons/tb";
+import {LuMail} from 'react-icons/lu';
+import {TbHeartCode} from 'react-icons/tb';
 
 function Footer() {
   return (
@@ -13,35 +13,37 @@ function Footer() {
         through collaborative learning, mentorship, group coding and networking
         sessions
       </p>
-      <p>       
+      <p>
         contact us
         <span className={styles.icon}>
-          <a  href="mailto:techriserswomen@gmail.com?subject=Tech Risers Women" 
-              target="_blank" 
-              rel="noreferrer" 
-              alt="send an Email to Tech Risers Women to get in touch"  
-              className={styles.contactLink}>
-                <LuMail />
+          <a
+            href='mailto:techriserswomen@gmail.com?subject=Tech Risers Women'
+            target='_blank'
+            rel='noreferrer'
+            title='send an Email to Tech Risers Women to get in touch'
+            className={styles.contactLink}>
+            <LuMail />
           </a>
         </span>
-      {/* <span className={styles.icon}>
-            <a href="/" alt="" className={styles.socialsLink}>
+        {/* <span className={styles.icon}>
+            <a href="/" title="" className={styles.socialsLink}>
             <FaXTwitter />
             </a>
           </span> */}
         {/* <span className={styles.icon}>
-          <a href="/" alt="" className={styles.socialsLink}>
+          <a href="/" title="" className={styles.socialsLink}>
           <SiInstagram />
           </a>
           </span> */}
-          get updates
-          <span className={styles.icon}>
-          <a  href="https://forms.gle/MqyXV2HPRtUMAopE6" 
-              target="_blank" 
-              rel="noreferrer" 
-              alt="Fill out this form to receive regular updates" 
-              className={styles.contactLink}>
-                <TbHeartCode />
+        get updates
+        <span className={styles.icon}>
+          <a
+            href='https://forms.gle/MqyXV2HPRtUMAopE6'
+            target='_blank'
+            rel='noreferrer'
+            title='Fill out this form to receive regular updates'
+            className={styles.contactLink}>
+            <TbHeartCode />
           </a>
         </span>
       </p>
