@@ -47,7 +47,7 @@ function Donate() {
             every woman has the chance to thrive and shine.
           </p>
           <button className={styles.donateButton}>
-            <a href="/" alt="">
+            <a href="/" title="">
               Donate here
             </a>
           </button>

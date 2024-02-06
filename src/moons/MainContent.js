@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import styles from "./mainContent.module.css";
 import mainLinkImage from "../media/annieEasley.png";
 import mainLinkImage2 from "../media/graceHopper.png";
@@ -40,25 +41,25 @@ function MainContent() {
         </p>
       </div>
       <div>
-        <a href="/" 
-           alt="learn more about what Tech Risers Women stands for" 
+        <Link href="/" 
+           title="learn more about what Tech Risers Women stands for" 
            className={styles.mainLink}>
           learn more about our initiatives
-        </a>
+        </Link >
       </div>
       <div>
-        <a href="/" 
-           alt="sign up to join our group coding sessions" 
+        <Link href="/" 
+           title="sign up to join our group coding sessions" 
            className={styles.mainLink}>
           join our group coding sessions
-        </a>
+        </Link>
       </div>
       <div>
-        <a href="/" 
-           alt="help and donate to Tech Risers Women" 
+        <Link href="/" 
+           title="help and donate to Tech Risers Women" 
            className={styles.mainLink}>
           donate to Tech Risers Women
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -20,18 +20,18 @@ function Footer() {
             href='mailto:techriserswomen@gmail.com?subject=Tech Risers Women'
             target='_blank'
             rel='noreferrer'
-            alt='send an Email to Tech Risers Women to get in touch'
+            title='send an Email to Tech Risers Women to get in touch'
             className={styles.contactLink}>
             <LuMail />
           </a>
         </span>
         {/* <span className={styles.icon}>
-            <a href="/" alt="" className={styles.socialsLink}>
+            <a href="/" title="" className={styles.socialsLink}>
             <FaXTwitter />
             </a>
           </span> */}
         {/* <span className={styles.icon}>
-          <a href="/" alt="" className={styles.socialsLink}>
+          <a href="/" title="" className={styles.socialsLink}>
           <SiInstagram />
           </a>
           </span> */}
@@ -41,7 +41,7 @@ function Footer() {
             href='https://forms.gle/MqyXV2HPRtUMAopE6'
             target='_blank'
             rel='noreferrer'
-            alt='Fill out this form to receive regular updates'
+            title='Fill out this form to receive regular updates'
             className={styles.contactLink}>
             <TbHeartCode />
           </a>

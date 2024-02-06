@@ -49,10 +49,10 @@ function Contact() {
           also welcome curious women to join our Wednesday group sessions.
           </p>
           <div>
-             {/* <a href="/" alt="" className={styles.contactLink}>
+             {/* <a href="/" title="" className={styles.contactLink}>
             <FaXTwitter />
               </a>
-              <a href="/" alt="" className={styles.contactLink}>
+              <a href="/" title="" className={styles.contactLink}>
             <SiInstagram />
               </a> */}
             <div className={styles.contactLinks}>
@@ -61,7 +61,7 @@ function Contact() {
                 href="mailto:techriserswomen@gmail.com?subject=Tech Risers Women" 
                 target="_blank" 
                 rel="noreferrer" 
-                alt="send an Email to Tech Risers Women to get in touch" 
+                title="send an Email to Tech Risers Women to get in touch" 
                 className={styles.contactLink}>
                   <LuMail />
                 </a>  
@@ -72,7 +72,7 @@ function Contact() {
                 href="https://forms.gle/MqyXV2HPRtUMAopE6" 
                 target="_blank" 
                 rel="noreferrer" 
-                alt="Fill out this form to receive regular updates" 
+                title="Fill out this form to receive regular updates" 
                 className={styles.contactLink}>
                   <TbHeartCode />
                 </a> 
