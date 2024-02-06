@@ -1,9 +1,9 @@
-import React from "react";
-import styles from "./footer.module.css";
+import React from 'react';
+import styles from './footer.module.css';
 // import { FaXTwitter } from "react-icons/fa6";
 // import { SiInstagram } from "react-icons/si";
-import { LuMail } from "react-icons/lu";
-import { TbHeartCode } from "react-icons/tb";
+import {LuMail} from 'react-icons/lu';
+import {TbHeartCode} from 'react-icons/tb';
 
 function Footer() {
   return (
@@ -13,18 +13,19 @@ function Footer() {
         through collaborative learning, mentorship, group coding and networking
         sessions
       </p>
-      <p>       
+      <p>
         contact us
         <span className={styles.icon}>
-          <a  href="mailto:techriserswomen@gmail.com?subject=Tech Risers Women" 
-              target="_blank" 
-              rel="noreferrer" 
-              alt="send an Email to Tech Risers Women to get in touch"  
-              className={styles.contactLink}>
-                <LuMail />
+          <a
+            href='mailto:techriserswomen@gmail.com?subject=Tech Risers Women'
+            target='_blank'
+            rel='noreferrer'
+            alt='send an Email to Tech Risers Women to get in touch'
+            className={styles.contactLink}>
+            <LuMail />
           </a>
         </span>
-      {/* <span className={styles.icon}>
+        {/* <span className={styles.icon}>
             <a href="/" alt="" className={styles.socialsLink}>
             <FaXTwitter />
             </a>
@@ -34,16 +35,36 @@ function Footer() {
           <SiInstagram />
           </a>
           </span> */}
-          get updates
-          <span className={styles.icon}>
-          <a  href="https://forms.gle/MqyXV2HPRtUMAopE6" 
-              target="_blank" 
-              rel="noreferrer" 
-              alt="Fill out this form to receive regular updates" 
-              className={styles.contactLink}>
-                <TbHeartCode />
+        get updates
+        <span className={styles.icon}>
+          <a
+            href='https://forms.gle/MqyXV2HPRtUMAopE6'
+            target='_blank'
+            rel='noreferrer'
+            alt='Fill out this form to receive regular updates'
+            className={styles.contactLink}>
+            <TbHeartCode />
           </a>
         </span>
+      </p>
+      <p className={styles.footnote}>
+        This website is{' '}
+        <a
+          href='https://github.com/Tech-Risers-Women/Tech-Risers-Women.github.io'
+          target='_blank'
+          rel='noreferrer'
+          alt='Tech risers women gitHub repository'>
+          open source
+        </a>
+        , developed by{' '}
+        <a
+          href='https://www.eva-nagengast.com'
+          target='_blank'
+          rel='noreferrer'
+          alt='Eva Nagengasts website'>
+          Eva Nagengast
+        </a>
+        .
       </p>
     </footer>
   );
