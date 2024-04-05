@@ -1,6 +1,6 @@
-import React, { useState, useRef, useEffect } from "react";
-import { NavLink } from "react-router-dom";
-import styles from "./hamburgerMenu.module.css";
+import React, {useState, useRef, useEffect} from 'react';
+import {NavLink} from 'react-router-dom';
+import styles from './hamburgerMenu.module.css';
 
 function HamburgerMenu() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -16,33 +16,34 @@ function HamburgerMenu() {
         setNavbarOpen(false);
       }
     };
-    document.addEventListener("mousedown", handler);
+    document.addEventListener('mousedown', handler);
     return () => {
-      document.removeEventListener("mousedown", handler);
+      document.removeEventListener('mousedown', handler);
     };
   }, [navbarOpen]);
 
   return (
-    <div className={styles.hamburgerMenu} ref={ref}>
+    <div
+      className={styles.hamburgerMenu}
+      ref={ref}>
       {/* Hamburger Button */}
-      <button className={styles.hamburgerButton} onClick={toggleNavbar}>
+      <button
+        className={styles.hamburgerButton}
+        onClick={toggleNavbar}>
         <div
           className={
             navbarOpen ? styles.hamburgerTopOpen : styles.hamburgerTopClosed
-          }
-        ></div>
+          }></div>
         <div
           className={
             navbarOpen ? styles.hamburgerMidOpen : styles.hamburgerMidClosed
-          }
-        ></div>
+          }></div>
         <div
           className={
             navbarOpen
               ? styles.hamburgerBottomOpen
               : styles.hamburgerBottomClosed
-          }
-        ></div>
+          }></div>
       </button>
 
       <div className={navbarOpen ? styles.menu : styles.menuClosed}>
@@ -50,25 +51,23 @@ function HamburgerMenu() {
         <ul className={`${styles.smallScreenMenu} ${styles.open}`}>
           <li className={styles.hamburgerLink}>
             <NavLink
-              to="/"
-              className={({ isActive }) => (isActive ? styles.active : "")}
-              onClick={closeNavbar}
-            >
+              to='/'
+              className={({isActive}) => (isActive ? styles.active : '')}
+              onClick={closeNavbar}>
               Home
-            </NavLink>{" "}
+            </NavLink>{' '}
           </li>
           <li className={styles.hamburgerLink}>
             <NavLink
-              to="about"
-              className={({ isActive }) => (isActive ? styles.active : "")}
-              onClick={closeNavbar}
-            >
+              to='/about'
+              className={({isActive}) => (isActive ? styles.active : '')}
+              onClick={closeNavbar}>
               About
             </NavLink>
           </li>
           {/* <li className={styles.hamburgerLink}>
             <NavLink
-              to="donate"
+              to="/donate"
               className={({ isActive }) => (isActive ? styles.active : "")}
               onClick={closeNavbar}
             >
@@ -77,10 +76,9 @@ function HamburgerMenu() {
           </li> */}
           <li className={styles.hamburgerLink}>
             <NavLink
-              to="contact"
-              className={({ isActive }) => (isActive ? styles.active : "")}
-              onClick={closeNavbar}
-            >
+              to='/contact'
+              className={({isActive}) => (isActive ? styles.active : '')}
+              onClick={closeNavbar}>
               Contact
             </NavLink>
           </li>
