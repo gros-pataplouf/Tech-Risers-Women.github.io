@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Tech-Risers-Women.github.io/static/css/main.d01d78bf.css",
-    "main.js": "/Tech-Risers-Women.github.io/static/js/main.421c9847.js",
+    "main.js": "/Tech-Risers-Women.github.io/static/js/main.b4f54b29.js",
     "static/media/christineDarden.png": "/Tech-Risers-Women.github.io/static/media/christineDarden.71629103639916478081.png",
     "static/media/MaryWilkes.png": "/Tech-Risers-Women.github.io/static/media/MaryWilkes.1aedc235bc8ef8ec2dc7.png",
     "static/media/communityDriven.png": "/Tech-Risers-Women.github.io/static/media/communityDriven.32d252293743628e72b7.png",
@@ -13,10 +13,10 @@
     "static/media/logodark.png": "/Tech-Risers-Women.github.io/static/media/logodark.cbe78d8f0791ce17894c.png",
     "index.html": "/Tech-Risers-Women.github.io/index.html",
     "main.d01d78bf.css.map": "/Tech-Risers-Women.github.io/static/css/main.d01d78bf.css.map",
-    "main.421c9847.js.map": "/Tech-Risers-Women.github.io/static/js/main.421c9847.js.map"
+    "main.b4f54b29.js.map": "/Tech-Risers-Women.github.io/static/js/main.b4f54b29.js.map"
   },
   "entrypoints": [
     "static/css/main.d01d78bf.css",
-    "static/js/main.421c9847.js"
+    "static/js/main.b4f54b29.js"
   ]
 }
