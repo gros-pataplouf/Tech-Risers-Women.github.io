@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.d01d78bf.css",
-    "main.js": "/static/js/main.caf6c0e8.js",
-    "static/media/christineDarden.png": "/static/media/christineDarden.71629103639916478081.png",
-    "static/media/MaryWilkes.png": "/static/media/MaryWilkes.1aedc235bc8ef8ec2dc7.png",
-    "static/media/communityDriven.png": "/static/media/communityDriven.32d252293743628e72b7.png",
-    "static/media/practicalSkills.png": "/static/media/practicalSkills.cfee823ab5290196716f.png",
-    "static/media/professionalGrowth.png": "/static/media/professionalGrowth.42dafdc69be104e1fc90.png",
-    "static/media/BettyWebb.png": "/static/media/BettyWebb.44e4374cf12b97fddeab.png",
-    "static/media/hedyLamarr.png": "/static/media/hedyLamarr.2ce5eb1032040f990c9d.png",
-    "static/media/carolShaw.png": "/static/media/carolShaw.3c9732409623181e8454.png",
-    "static/media/logodark.png": "/static/media/logodark.cbe78d8f0791ce17894c.png",
-    "index.html": "/index.html",
-    "main.d01d78bf.css.map": "/static/css/main.d01d78bf.css.map",
-    "main.caf6c0e8.js.map": "/static/js/main.caf6c0e8.js.map"
+    "main.css": "/Tech-Risers-Women.github.io/static/css/main.d01d78bf.css",
+    "main.js": "/Tech-Risers-Women.github.io/static/js/main.421c9847.js",
+    "static/media/christineDarden.png": "/Tech-Risers-Women.github.io/static/media/christineDarden.71629103639916478081.png",
+    "static/media/MaryWilkes.png": "/Tech-Risers-Women.github.io/static/media/MaryWilkes.1aedc235bc8ef8ec2dc7.png",
+    "static/media/communityDriven.png": "/Tech-Risers-Women.github.io/static/media/communityDriven.32d252293743628e72b7.png",
+    "static/media/practicalSkills.png": "/Tech-Risers-Women.github.io/static/media/practicalSkills.cfee823ab5290196716f.png",
+    "static/media/professionalGrowth.png": "/Tech-Risers-Women.github.io/static/media/professionalGrowth.42dafdc69be104e1fc90.png",
+    "static/media/BettyWebb.png": "/Tech-Risers-Women.github.io/static/media/BettyWebb.44e4374cf12b97fddeab.png",
+    "static/media/hedyLamarr.png": "/Tech-Risers-Women.github.io/static/media/hedyLamarr.2ce5eb1032040f990c9d.png",
+    "static/media/carolShaw.png": "/Tech-Risers-Women.github.io/static/media/carolShaw.3c9732409623181e8454.png",
+    "static/media/logodark.png": "/Tech-Risers-Women.github.io/static/media/logodark.cbe78d8f0791ce17894c.png",
+    "index.html": "/Tech-Risers-Women.github.io/index.html",
+    "main.d01d78bf.css.map": "/Tech-Risers-Women.github.io/static/css/main.d01d78bf.css.map",
+    "main.421c9847.js.map": "/Tech-Risers-Women.github.io/static/js/main.421c9847.js.map"
   },
   "entrypoints": [
     "static/css/main.d01d78bf.css",
-    "static/js/main.caf6c0e8.js"
+    "static/js/main.421c9847.js"
   ]
 }
