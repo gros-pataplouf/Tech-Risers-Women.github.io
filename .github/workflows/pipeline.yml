@@ -3,7 +3,7 @@ name: Deployment pipeline
 on:
     push:
         branches:
-            - main
+            - test/deploy
 
 jobs:
     simple_deployment_pipeline:
@@ -18,6 +18,11 @@ jobs:
             # - name: Check style - necessary ?
             #   run: npm run eslint
             - name: Run tests
-              run: npm run test # no tests written yet
+              run: npm run test
             - name: Deploy
-              run: npm run deploy
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              run: |
+                git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/gros-pataplouf/Tech-Risers-Women.github.io.git
+                git checkout test/deploy
+                npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
