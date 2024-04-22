@@ -10,7 +10,7 @@ import Error from './Error';
 function App() {
   return (
     <div className='App'>
-      <Route
+      <Routes
         path=''
         element={<Layout />}>
         <Route
@@ -33,7 +33,7 @@ function App() {
           path='*'
           element={<Error />}
         />
-      </Route>
+      </Routes>
     </div>
   );
 }
