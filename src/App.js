@@ -10,29 +10,31 @@ import Error from './Error';
 function App() {
   return (
     <div className='App'>
-      <Routes
-        path=''
-        element={<Layout />}>
+      <Routes>
         <Route
-          index
-          element={<Home />}
-        />
-        <Route
-          path='about'
-          element={<About />}
-        />
-        <Route
-          path='donate'
-          element={<Donate />}
-        />
-        <Route
-          path='contact'
-          element={<Contact />}
-        />
-        <Route
-          path='*'
-          element={<Error />}
-        />
+          path=''
+          element={<Layout />}>
+          <Route
+            index
+            element={<Home />}
+          />
+          <Route
+            path='about'
+            element={<About />}
+          />
+          <Route
+            path='donate'
+            element={<Donate />}
+          />
+          <Route
+            path='contact'
+            element={<Contact />}
+          />
+          <Route
+            path='*'
+            element={<Error />}
+          />
+        </Route>
       </Routes>
     </div>
   );
